@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/search")
+@RequestMapping("/search")
 @AllArgsConstructor
 public class SearchController {
     private final SearchServiceImpl searchService;
