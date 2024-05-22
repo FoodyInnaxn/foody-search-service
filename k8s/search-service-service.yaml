@@ -15,5 +15,4 @@ spec:
       targetPort: 8787
   selector:
     io.kompose.service: search-service
-status:
-  loadBalancer: {}
+  type: ClusterIP
